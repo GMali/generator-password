@@ -1,0 +1,11 @@
+@font-face {
+	font-family: SketchRockwell;
+	src: url("SketchRockwell.ttf");
+}
+
+.my_CSS3_class {
+	font-family: SketchRockwell;
+	font-size: 3em;
+	letter-spacing: 20px;
+	text-align: center;
+}

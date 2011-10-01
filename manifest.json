@@ -1,0 +1,12 @@
+{
+	"name": "Generator Password",
+	"version": "1.0",
+
+	"description": "An application to generate new passwords easily.",
+
+	"browser_action": {
+		"default_icon": "generate.png",
+		"default_title": "Generator Password",
+		"default_popup": "index.html"
+	}
+}
