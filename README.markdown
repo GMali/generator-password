@@ -2,7 +2,7 @@
 
 Please for more information, visit the Wiki for this project.
 
-[Wiki](http://wiki.github.com/mourdok/generate/)
+[Wiki](https://github.com/mourdok/generator-password/wiki)
 
 ## Acknowledgments ##
 
