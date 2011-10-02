@@ -8,15 +8,15 @@ Autor URI: http://enrique-ramirez.com
 */
 
 /* Imports */
-@import url("reset.css");
-@import url("global-forms.css");
-@import url("font-face.css");
+@import url("/assets/stylesheets/template-v1/reset.css");
+@import url("/assets/stylesheets/template-v1/global-forms.css");
+@import url("/assets/stylesheets/template-v1/font-face.css");
 
 /***** Global *****/
 
 /* Body */
 body {
-	background: #F5F4EF url('bg.png');
+	background: #F5F4EF url('/assets/images/template-v1/bg.png');
 	color: #000305;
 	font-size: 87.5%; /* Base font size: 14px */
 	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

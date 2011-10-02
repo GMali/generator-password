@@ -5,8 +5,8 @@
 	"description": "An application to generate new passwords easily.",
 
 	"browser_action": {
-		"default_icon": "generate.png",
+		"default_icon": "/assets/images/template-v1/generate.png",
 		"default_title": "Generator Password",
-		"default_popup": "index.html"
+		"default_popup": "/views/home/index.html"
 	}
 }

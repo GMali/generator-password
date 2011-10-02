@@ -1,6 +1,6 @@
 # Case study by Andre Moreira #
 
-Please for more information, visit the Wiki for this project (coming soon).
+Please for more information, visit the Wiki for this project.
 
 [Wiki](http://wiki.github.com/mourdok/generate/)
 
