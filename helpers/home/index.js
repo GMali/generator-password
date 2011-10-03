@@ -7,7 +7,8 @@ jQuery(document).ready(function($){
 
 	function generate() {
 		var string = "q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m".split(","),
-			integer = "1,2,3,4,5,6,7,8,9,0".split(",");
+			integer = "1,2,3,4,5,6,7,8,9,0".split(","),
+			symbols = "~,!,@,#,$,%,^,&,*,(,),_,+,-,=,],[,{,},\,;,:,/,.,<,>,?".split(",");
 
 		function _string() {
 			return string[Math.floor(Math.random() * string.length)];
@@ -16,7 +17,11 @@ jQuery(document).ready(function($){
 		function _integer() {
 			return integer[Math.floor(Math.random() * integer.length)];
 		}
+		
+		function _symbol() {
+			return symbol[Math.floor(Math.random() * symbol.length)];
+		}
 
-		return _string() + _string() + _integer() + _integer() + _integer() + _integer() + _string() + _string();
+		return _symbol() + _string() + _string() + _symbol() + _integer() + _integer() + _symbol() + _integer() + _integer() + _symbol() + _string() + _string() + _symbol();
 	}
 });
